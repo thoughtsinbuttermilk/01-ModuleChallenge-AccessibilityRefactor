@@ -15,19 +15,30 @@ TODOs
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Title is not specific, does not describe the site -->
-    <title>website</title>
+    <!--
+        Title is not specific, does not describe the site
+        changing title from "website" to "Horiseon Social Solution Services. Search engine optimization, online reputation management, and social media marketing.""
+    -->
+    <title>Horiseon Social Solution Services. Search engine optimization, online reputation management, and social media marketing.</title>
 </head>
 
 <body>
-    <!-- <div>s are not semantic elements> -->
-    <div class="header">
-        <!-- <span> is not semantic. span class for styling, color change, of "SEO" characters -->
-        <!-- Is the intent to empahsize SEO? -->
-        <!-- <h1>, good! -->
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- Another <div> replace with <nav>? -->
-        <div>
+    <!--
+        <div>s are not semantic elements. change to header.
+    -->
+    <header class="header">
+        <!--
+            <span> is not semantic. span class for styling, color change, of "SEO" characters
+            Is the intent to empahsize SEO?
+            change span to em and test; no need to change css
+            <h1>, good!
+        -->
+        <h1>Hori<em class="seo">seo</em>n</h1>
+        <!--
+            Another <div>
+            replace with <nav>, update css
+        -->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -39,8 +50,8 @@ TODOs
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <!-- another <div> for the hero image -->
     <div class="hero"></div>
     <!-- <div>, again -->

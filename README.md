@@ -29,9 +29,9 @@ Given a webpage meets accessibility standards:
 
 • [Apple VoiceOver (screen reader built into MacOS)](https://www.apple.com/voiceover/info/guide/_1121.html#:~:text=About%20VoiceOver&text=To%20turn%20on%20VoiceOver%2C%20press,using%20contracted%20or%20uncontracted%20braille.)
 
-• Inspector, Chrome Devtools
+• [Inspector, Chrome Devtools](https://developer.chrome.com/docs/devtools/overview/)
 
-• Visual Studio Code
+• [Visual Studio Code](https://code.visualstudio.com/learn)
 
 **Reference image**
 

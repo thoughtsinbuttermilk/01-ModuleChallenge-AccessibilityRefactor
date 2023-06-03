@@ -39,8 +39,13 @@ Below, a reference imagee of the original source code rendered in Google Chrome.
 
 ![Screenshot of original site.](./assets/01-html-css-git-homework-demo.png)
 
+# Deployment, usage
+
+The html site has been deployed using [Github Pages](https://pages.github.com/) and can be viewed in a web browser or screen reader. 
+
 # Future updates
 
 ## Author
 
-[**Sam Bailey**](https://github.com/thoughtsinbuttermilk) [Shoot me an email!](thoughtsinbuttermilk@gmail.com) [Or visit my website!](http://www.thoughtsinbuttermilk.com)
+[**Sam Bailey**](https://github.com/thoughtsinbuttermilk) [Shoot me an email!](mailto:thoughtsinbuttermilk@gmail.com) [Or visit my website!](http://www.thoughtsinbuttermilk.com)
+

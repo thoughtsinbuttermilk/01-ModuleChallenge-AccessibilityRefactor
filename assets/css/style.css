@@ -1,9 +1,12 @@
-/* Need to simplify overly complex CSS for readability, usability and maintenance */
-/* Consolidate duplicated selectors and style properties into re-usable selectors */
+/*
+Need to simplify overly complex CSS for readability, usability and maintenance 
+Consolidate duplicated selectors and style properties into re-usable selectors
 
-/* universal class selector */
-/* these style properties will be applied to all appropriate elements on the page */
-/* if these properties appear in otheer class selectors they should be safe to remove */
+universal class selector
+these style properties will be applied to all appropriate elements on the page
+if these properties appear in otheer class selectors they should be safe to remove
+*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -30,13 +33,19 @@ body {
     font-size: 48px;
 }
 
-/* See above and allow for styling the SEO after you replace the non semantic HTML elemets with sematic elements  */
+/*
+See above and allow for styling the SEO after you replace the non semantic HTML elemets with sematic elements 
+changed html element from span to em, updating font-style to normal
+*/
 .header h1 .seo {
+    font-style: normal;
     color: #d9dcd6;
 }
 
-/* See above */
-.header div {
+/*
+changed the div to nav, updating these to nav too
+*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,12 +54,12 @@ body {
 }
 
 /* unordered list */
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
 /* the list elements */
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -76,13 +85,13 @@ p {
     background-position: center;
 }
 
-/* is this used? */
+/* is this used? yes, yes it is */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* is this used? */
+/* is this used? yes, yes it is */
 .float-right {
     float: right;
     margin-left: 25px;

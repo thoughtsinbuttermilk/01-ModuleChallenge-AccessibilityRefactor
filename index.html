@@ -1,11 +1,14 @@
 <!--
 TODOs
-1. eliminate "div soup", replace with semantic elements
-2. update css selectors
-3. consolidate duplication in css
+2. consolidate duplication in css
+3. update css selectors (not needed)
 4. make image names unique
 5. add alt attributes to images, NOTE: no external links in the document
-6. increase contrast of background / foreground colors NOTE: not sure about this one since the visual appearance is to stay the same.
+6. figure out what to do about hero image in css? move to html and add aria? something else?
+7. increase contrast of background / foreground colors NOTE: not sure about this one since the visual appearance is to stay the same.
+DONE
+8. Sectioning elements and screen readers: https://www.accessibilityoz.com/2020/02/html5-sectioning-elements-and-screen-readers/
+1. eliminate "div soup", replace with semantic elements
 -->
 
 <!DOCTYPE html>
@@ -54,33 +57,32 @@ TODOs
     </header>
     <!-- 
         another <div> for the hero image
-        this seems correct for the hero image
+        this usage seems correct for the hero image
     -->
     <div class="hero"></div>
     <!-- 
         <div>, again
-        main? section? let's go with main, then sections
-        this is the main content in the document.
+        main? section? let's go sectiioni, then articles
     -->
-    <main class="content">
+    <section class="content">
         <!--
             <div>, again
-            change to section
+            change to article
         -->
-        <section class="search-engine-optimization">
+        <article class="search-engine-optimization">
             <!-- does not contain <alt> image description -->
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left"/>
             <!-- <h2>, good! -->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </section>
+        </article>
         <!--
             <div>, again
-            change to section
+            change to article
         -->
-        <section id="online-reputation-management" class="online-reputation-management">
+        <article id="online-reputation-management" class="online-reputation-management">
             <!-- does not contain <alt> image description -->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <!-- <h2>, good! -->
@@ -88,12 +90,12 @@ TODOs
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </section>
+        </article>
         <!-- 
             <div>, again
-            change to section
+            change to article
         -->
-        <section id="social-media-marketing" class="social-media-marketing">
+        <article id="social-media-marketing" class="social-media-marketing">
             <!-- does not contain <alt> image description -->
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <!-- <h2>, good! -->
@@ -101,18 +103,18 @@ TODOs
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </section>
-    </main>
+        </article>
+    </section>
     <!-- 
         <div>, again
-        use aside and sections here
+        use asides 
     -->
     <aside class="benefits">
         <!--
             <div>, again
-            use sectiion
+            use article
         -->
-        <section class="benefit-lead">
+        <aside class="benefit-lead">
             <!-- <h3>, good! -->
             <h3>Lead Generation</h3>
             <!-- does not contain <alt> image description -->
@@ -120,12 +122,12 @@ TODOs
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </section>
-        <!-- 
+        </aside>
+        <!--
             <div>, again
-            use section
+            use aside
         -->
-        <section class="benefit-brand">
+        <aside class="benefit-brand">
             <!-- <h3>, good! -->
             <h3>Brand Awareness</h3>
             <!-- does not conatin <alt> image description -->
@@ -133,12 +135,12 @@ TODOs
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </section>
-        <!-- 
+        </aside>
+        <!--
             <div>, again
-            use section
+            use aside
         -->
-        <section class="benefit-cost">
+        <aside class="benefit-cost">
             <!-- <h3>, good! -->
             <h3>Cost Management</h3>
             <!-- does not contain <alt> image description -->
@@ -146,11 +148,11 @@ TODOs
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </section>
+        </aside>
     </aside>
-        <!-- 
+        <!--
             <div>, again
-            this is the footer, use footer
+            use aside
         -->
         <footer class="footer">
         <!-- <h2>, good! -->

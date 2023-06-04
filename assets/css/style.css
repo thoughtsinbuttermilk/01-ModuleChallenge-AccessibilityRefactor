@@ -43,7 +43,7 @@ changed html element from span to em, updating font-style to normal
 }
 
 /*
-changed the div to nav, updatin these to nav too
+changed the div to nav, updating these to nav too
 */
 .header nav {
     padding-top: 15px;
@@ -85,13 +85,13 @@ p {
     background-position: center;
 }
 
-/* is this used? */
+/* is this used? yes, yes it is */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* is this used? */
+/* is this used? yes, yes it is */
 .float-right {
     float: right;
     margin-left: 25px;

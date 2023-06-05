@@ -45,7 +45,7 @@ Below, a reference imagee of the original source code rendered in Google Chrome.
 
 # Deployment, usage
 
-The html site has been deployed using [Github Pages](https://pages.github.com/) and can be viewed in a web browser or screen reader. 
+The html site has been deployed using [Github Pages]([https://pages.github.com/](https://github.com/thoughtsinbuttermilk/01-ModuleChallenge-AccessibilityRefactor/settings/pages)) and can be viewed in a web browser or screen reader. 
 
 # Accessibility report
 

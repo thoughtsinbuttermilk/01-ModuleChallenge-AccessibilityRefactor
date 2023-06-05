@@ -104,7 +104,11 @@ p {
     margin-left: 20px;
 }
 
-/* benefits */
+/*
+benefits
+Lighthouse reports a contrast error on thee background / foreground color
+Two options I see: increase the font size or change the background color
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;

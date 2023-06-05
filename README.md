@@ -39,6 +39,10 @@ Below, a reference imagee of the original source code rendered in Google Chrome.
 
 ![Screenshot of original site.](./assets/01-html-css-git-homework-demo.png)
 
+**Notes for Instructor, Teaching Assistants
+
+The source code for this project is in the `main` branch. I have not deleted the working branches I used to iterate over the changes, organize the project etc., in case those are of interest to you. 
+
 # Deployment, usage
 
 The html site has been deployed using [Github Pages](https://pages.github.com/) and can be viewed in a web browser or screen reader. 

@@ -23,6 +23,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Note: the header constrast ratio meets the accessibility requirement. Change the benefits aside background color to this value. */
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -113,7 +114,11 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    /*
+    Changing the background color as a test to see if the contrast ratio is compliant with the accessibility requirement
+    background-color: #2589bd; 
+    */
+    background-color: #2a607c;
 }
 
 /* benefit-lead, -brand, -cost are duplicative, can be consolidated for re-use */

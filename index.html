@@ -4,11 +4,14 @@ TODOs
 3. update css selectors (not needed)
 4. make image names unique
 5. add alt attributes to images, NOTE: no external links in the document
-6. figure out what to do about hero image in css? move to html and add aria? something else?
 7. increase contrast of background / foreground colors NOTE: not sure about this one since the visual appearance is to stay the same.
 DONE
 8. Sectioning elements and screen readers: https://www.accessibilityoz.com/2020/02/html5-sectioning-elements-and-screen-readers/
 1. eliminate "div soup", replace with semantic elements
+6. figure out what to do about hero image in css? move to html and add aria? something else?
+Something else...see below, don't know if that's correct but VoiceOver does read the alt text for the image
+9. Add <span>, aria-label to heart emoji in footer
+10. Copyright symbol is read correctly, no label needed
 -->
 
 <!DOCTYPE html>
@@ -58,8 +61,11 @@ DONE
     <!-- 
         another <div> for the hero image
         this usage seems correct for the hero image
+        Picked up the idea to create a span class from: https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
     -->
-    <div class="hero"></div>
+    <div class="hero">
+        <span role="img" aria-label="image of people sitting at a table working"> </span>
+    </div>
     <!-- 
         <div>, again
         main? section? let's go sectiioni, then articles
@@ -157,8 +163,7 @@ DONE
         <footer class="footer">
         <!-- <h2>, good! -->
         <!-- Emoji, needs <alt> to desribe both literal and figurative meaning -->
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <!-- Copyright symbol, needs <alt> to describe literal meaning -->
+        <h2>Made with <span role="img" aria-label="love"></span> ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>

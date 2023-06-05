@@ -15,6 +15,10 @@ Given a webpage meets accessibility standards:
 * When I view the heading attributes, then they fall in sequential order.
 * When I view the title element, then I find a concise, descriptive title.
 
+## Notes for Instructor, Teaching Assistants
+
+The source code for this project is in the `main` branch. I have not deleted the working branches I used to iterate over the changes, organize the project etc., in case those are of interest to you. 
+
 # References and tools used
 
 **References**
@@ -38,10 +42,6 @@ Given a webpage meets accessibility standards:
 Below, a reference imagee of the original source code rendered in Google Chrome. Note: The refence image below does not include the site's footer.
 
 ![Screenshot of original site.](./assets/01-html-css-git-homework-demo.png)
-
-**Notes for Instructor, Teaching Assistants
-
-The source code for this project is in the `main` branch. I have not deleted the working branches I used to iterate over the changes, organize the project etc., in case those are of interest to you. 
 
 # Deployment, usage
 

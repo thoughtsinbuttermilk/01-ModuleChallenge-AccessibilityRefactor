@@ -117,9 +117,9 @@ p {
     /*
     Changing the background color as a test to see if the contrast ratio is compliant with the accessibility requirement
     background-color: #2589bd; 
-    Great, that worked. Is there another color that is closer to the orginal?
+    Great, that worked. Is there another color that is closer to the orginal? Change "#1d6c97" to "#1e74a3"
     */
-    background-color: #1d6c97;
+    background-color: #1e74a3;
 }
 
 /* benefit-lead, -brand, -cost are duplicative, can be consolidated for re-use */

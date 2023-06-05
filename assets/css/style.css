@@ -1,51 +1,31 @@
-/*
-Need to simplify overly complex CSS for readability, usability and maintenance 
-Consolidate duplicated selectors and style properties into re-usable selectors
-
-universal class selector
-these style properties will be applied to all appropriate elements on the page
-if these properties appear in otheer class selectors they should be safe to remove
-*/
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* sets the HTML body element background color ro white */
 body {
     background-color: #d9dcd6;
 }
 
-/* sets all header elements style propertiees */
-/* original HTML uses <div class="header"> */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* Note: the header constrast ratio meets the accessibility requirement. Change the benefits aside background color to this value. */
+    /* Note: the header contrast ratio meets the accessibility requirement. Change the benefits aside background color to this value. */
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* Original source: h1 is nested within header div. Can this be consolidated into .header selector? */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/*
-See above and allow for styling the SEO after you replace the non semantic HTML elemets with sematic elements 
-changed html element from span to em, updating font-style to normal
-*/
 .header h1 .seo {
     font-style: normal;
     color: #d9dcd6;
 }
 
-/*
-changed the div to nav, updating these to nav too
-*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -54,29 +34,24 @@ changed the div to nav, updating these to nav too
     font-size: 20px;
 }
 
-/* unordered list */
 .header nav ul {
     list-style-type: none;
 }
 
-/* the list elements */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* anchor element */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* paragraph element */
 p {
     font-size: 16px;
 }
 
-/* hero image, needs alt description of image */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,7 +61,6 @@ p {
     background-position: center;
 }
 
-/* is this used? yes, yes it is */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -115,8 +89,8 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /*
-    Changing the background color as a test to see if the contrast ratio is compliant with the accessibility requirement
     background-color: #2589bd; 
+    Changing the background color as a test to see if the contrast ratio is compliant with the accessibility requirement
     Great, that worked. Is there another color that is closer to the orginal? Change "#1d6c97" to "#1e74a3"
     */
     background-color: #1e74a3;
